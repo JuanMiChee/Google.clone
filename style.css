@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-rigth-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-rigth-section a{
+    margin-right: 15px;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav .menu-icon{
+    width: 10px;
+    height: 10px;
+    margin-right: 30px;
+    margin-bottom: 13px;
+}
+
+nav .user-icon img{
+    width: 30px;
+    height: 30px;
+    border: solid 0.1px #777777;
+    border-radius: 50%;
+}
+
+nav .menu-icon img{
+    width: 25px;
+    height: 25px;
+}
+
+main{
+    margin-top: 10px;
+    text-align: center;
+}
+
+main .main-logo img{
+    height: 120px;
+    width: 370px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input .main-input-container{
+    border-radius: 100px;
+    width: 570px;
+    border: 1px solid #cfcfcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 500px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #defe1500;
+}
+
+main .main-input .micro-icon img{
+    width: 22px;
+}
+
+main .main-input .search-icon img{
+    width: 14px;
+    margin-right: 7px;
+}
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline;
+}
+
+main .main-buttons button{
+    height: 36px;
+    font-size: 14px;
+    border: 0px none;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    color: #4d4d4d;
+    margin-left: 15px;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+main .main-buttons button:hover{
+    box-shadow: 0 1px 4px 0 #777777;
+}
+
+p{
+    color: #4d4d4d;
+}
+
+.venezuela{
+    display: grid;
+    margin-top: 150px;
+    list-style: none;
+    background: #f2f2f2;
+    grid-template-columns: 1fr;
+    padding: 16px;
+    font-size: 14px;
+    border-top: 1px solid #e4e4e4;
+}
+
+.venezuela li a{
+    color: #818181;
+    margin-left: 20px;
+}
+
+footer{
+    display: grid;
+    margin-top: 150px;
+    background: #f2f2f2;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 14px;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    padding: 8px;
+}
+
+footer .footer-left{
+    justify-self: left;
+    margin-left: 20px;
+}
+
+footer .footer-right{
+    justify-self: right;
+    margin-right: 40px;
+}
+
+footer ul li a{
+    margin: 10px;
+    color:#818181
+}
